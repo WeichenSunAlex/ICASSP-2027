@@ -1,0 +1,28 @@
+{
+  "model_provider": "openai",
+  "model_name": "deepseek-v4-flash",
+  "stage": "initial",
+  "dataset_path": "data/sample_cases.json",
+  "output_dir": "output",
+  "mock": false,
+  "limit": 1,
+  "many_agent": {
+    "departments_config": "ag2_system/configs/departments.yaml",
+    "enabled_departments": [],
+    "top_k_committees": 3,
+    "min_k_committees": 2,
+    "max_k_committees": 4,
+    "max_rounds_per_committee": 2,
+    "internal_discussion_rounds_per_member": 1,
+    "board_followup_max_rounds": 1,
+    "routing_mode": "deterministic",
+    "router_llm_enabled": true,
+    "final_judge_llm_enabled": true,
+    "use_native_ag2": true,
+    "strict_native_ag2": true,
+    "all_chairs_must_speak_once": true,
+    "all_activated_members_must_speak_once": true,
+    "cost_budget": null
+  },
+  "heterogeneous_models": {}
+}

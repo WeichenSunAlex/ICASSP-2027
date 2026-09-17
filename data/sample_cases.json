@@ -1,0 +1,11 @@
+{
+  "Cases": [
+    {
+      "case_type": "rare_disease",
+      "case_name": "demo_case",
+      "case_id": "sample-001",
+      "initial_presentation": "A child has developmental delay, recurrent seizures, hypotonia, poor growth, and dysmorphic facial features. Brain MRI shows nonspecific white-matter abnormalities. The family history is unremarkable.",
+      "follow_up_presentation": "Metabolic screening is nondiagnostic. Chromosomal microarray is negative, and trio exome sequencing is being considered."
+    }
+  ]
+}
